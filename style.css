@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    margin: 20px;
+    line-height: 1.7;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+}
+#guest-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+#guest-name {
+    padding: 7px;
+    border: 1px solid olive;
+}
+#guest-form button:hover {
+background: grey;
+}
+#guest-list {
+    list-style: none;
+    max-width: 300px;
+    margin: auto;
+}
+#guest-list li {
+    background: white;
+    padding: 12px;
+    box-shadow: none;
+    display: flex;
+    justify-content: space-between;
+}
